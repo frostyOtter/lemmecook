@@ -19,6 +19,19 @@ function HomePage() {
                     Subcribe now for only 1$/month
                 </span>
             </div>
+            
+        </div>
+        <div className="">
+            <img src= {landingImage}/>
+            <div className="flex flex-col items-center justify-center gap-4 text-center">
+                <span className="font-bold text-orange-500 text-3xl tracking-tighter">
+                    Unlock even more features!
+                </span>
+                <span className="text-black-500 font-bold">
+                    Subcribe now for only 1$/month
+                </span>
+            </div>
+            
         </div>
     </div>
     
