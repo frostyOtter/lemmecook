@@ -1,0 +1,12 @@
+express
+cors
+dotenv
+mongodb
+mongoose
+
+ts-node
+typescript
+nodemon
+@types/express
+@types/cors
+@types/node
