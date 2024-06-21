@@ -23,11 +23,13 @@ load_dotenv(dotenv_path=os.path.join(wd,'.env'))
 es_id = os.environ.get("ES_ID")
 es_api = os.environ.get("ES_API")
 index_name = os.environ.get("INDEX_NAME")
+user_index = os.environ.get("USER_INDEX")
 
 search_engine = SearchEngine(
     id_name= es_id,
     api_key= es_api,
-    index_name= index_name
+    index_name= index_name,
+    user_index= user_index
 )
 
 
