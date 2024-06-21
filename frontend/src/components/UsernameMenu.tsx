@@ -4,8 +4,10 @@ import { useAuth0 } from "@auth0/auth0-react"
 import { Link } from "react-router-dom";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
+// import { readFileSync } from 'fs'
 
 const UsernameMenu = () => {
+    // const search_count_list = readFileSync('../asseets/search_count_list.txt', 'utf-8');
     const {user, logout} = useAuth0();
     return (
         <DropdownMenu>

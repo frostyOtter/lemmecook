@@ -11,7 +11,7 @@ const MobileNavLink = () => {
                 User Profile
             </Link>
 
-            <Button className="flex font-bold text-orange-500 bg-grey"
+            <Button className="flex font-bold text-orange-500 bg-black"
             onClick= {() => logout()}>
                 Logout
             </Button>
